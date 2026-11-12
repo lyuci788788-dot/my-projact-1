@@ -8,10 +8,15 @@
       "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-sky-200: oklch(90.1% 0.058 230.902);
+    --color-white: #fff;
     --spacing: 0.25rem;
     --container-6xl: 72rem;
     --container-7xl: 80rem;
+    --text-5xl: 3rem;
+    --text-5xl--line-height: 1;
     --font-weight-normal: 400;
+    --font-weight-medium: 500;
     --font-weight-bold: 700;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
@@ -166,12 +171,20 @@
   }
 }
 @layer utilities {
+  .mt-7 {
+    margin-top: calc(var(--spacing) * 7);
+  }
+  .mt-16 {
+    margin-top: calc(var(--spacing) * 16);
+  }
+  .mb-5 {
+    margin-bottom: calc(var(--spacing) * 5);
+  }
   .flex {
     display: flex;
   }
-  .size-\[14px\] {
-    width: 14px;
-    height: 14px;
+  .table {
+    display: table;
   }
   .h-8 {
     height: calc(var(--spacing) * 8);
@@ -179,8 +192,14 @@
   .h-16 {
     height: calc(var(--spacing) * 16);
   }
-  .w-6xl {
-    width: var(--container-6xl);
+  .h-147 {
+    height: calc(var(--spacing) * 147);
+  }
+  .h-147\.25 {
+    height: calc(var(--spacing) * 147.25);
+  }
+  .h-auto {
+    height: auto;
   }
   .w-7xl {
     width: var(--container-7xl);
@@ -188,11 +207,23 @@
   .w-32 {
     width: calc(var(--spacing) * 32);
   }
+  .w-95 {
+    width: calc(var(--spacing) * 95);
+  }
+  .max-w-7xl {
+    max-width: var(--container-7xl);
+  }
   .max-w-full {
     max-width: 100%;
   }
+  .border-collapse {
+    border-collapse: collapse;
+  }
   .transform {
     transform: var(--tw-rotate-x, ) var(--tw-rotate-y, ) var(--tw-rotate-z, ) var(--tw-skew-x, ) var(--tw-skew-y, );
+  }
+  .resize {
+    resize: both;
   }
   .items-center {
     align-items: center;
@@ -206,8 +237,26 @@
   .gap-5 {
     gap: calc(var(--spacing) * 5);
   }
+  .gap-23 {
+    gap: calc(var(--spacing) * 23);
+  }
   .rounded-\[4px\] {
     border-radius: 4px;
+  }
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+  }
+  .border-t-2 {
+    border-top-style: var(--tw-border-style);
+    border-top-width: 2px;
+  }
+  .border-t-4 {
+    border-top-style: var(--tw-border-style);
+    border-top-width: 4px;
+  }
+  .border-t-sky-200 {
+    border-top-color: var(--color-sky-200);
   }
   .bg-\[\#24B47E\] {
     background-color: #24B47E;
@@ -215,12 +264,23 @@
   .bg-\[\#181818\] {
     background-color: #181818;
   }
+  .pt-32 {
+    padding-top: calc(var(--spacing) * 32);
+  }
   .font-\[\'Roboto\'\] {
     font-family: 'Roboto';
+  }
+  .text-5xl {
+    font-size: var(--text-5xl);
+    line-height: var(--tw-leading, var(--text-5xl--line-height));
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
+  }
+  .font-medium {
+    --tw-font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-medium);
   }
   .font-normal {
     --tw-font-weight: var(--font-weight-normal);
@@ -228,6 +288,19 @@
   }
   .text-\[\#EEEEEE\] {
     color: #EEEEEE;
+  }
+  .text-\[\#eeee\] {
+    color: #eeee;
+  }
+  .text-white {
+    color: var(--color-white);
+  }
+  .underline {
+    text-decoration-line: underline;
+  }
+  .outline {
+    outline-style: var(--tw-outline-style);
+    outline-width: 1px;
   }
 }
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
@@ -243,6 +316,42 @@
   font-weight: 700;
   font-size: 14px;
   color: #EEEEEE;
+}
+.hero-left span {
+  width: 380px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57.6px;
+  color: #EEEEEE;
+}
+.hero-left h1 {
+  margin-bottom: 52px;
+  margin-top: 17px;
+  width: 566px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57.6px;
+  color: #EEEEEE;
+}
+.hero-left-text-logo-top {
+  gap: 12px;
+  p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #EEEEEE;
+  }
+}
+.hero-left-text {
+  width: 441px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  color: #E0E0E0;
 }
 @property --tw-rotate-x {
   syntax: "*";
@@ -264,9 +373,19 @@
   syntax: "*";
   inherits: false;
 }
+@property --tw-border-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
 @property --tw-font-weight {
   syntax: "*";
   inherits: false;
+}
+@property --tw-outline-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
 }
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: block))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
@@ -276,7 +395,9 @@
       --tw-rotate-z: initial;
       --tw-skew-x: initial;
       --tw-skew-y: initial;
+      --tw-border-style: solid;
       --tw-font-weight: initial;
+      --tw-outline-style: solid;
     }
   }
 }
