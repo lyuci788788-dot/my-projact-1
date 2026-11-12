@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+.btn-header{
+  background: #24B47E;
+width: 128px;
+height: 30px;
+border-radius: 4px;
+
+font-size: 12px;
+}
+
+/* option{
+  font-family: 'Roboto';
+font-weight: 400;
+font-size: 14px;
+color: #EEEEEE;
+
+} */
+
+.sing-in{
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 14px;
+color: #EEEEEE;
+
+}
