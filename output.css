@@ -187,6 +187,9 @@
   .h-96 {
     height: calc(var(--spacing) * 96);
   }
+  .h-120\.5 {
+    height: calc(var(--spacing) * 120.5);
+  }
   .h-147\.25 {
     height: calc(var(--spacing) * 147.25);
   }
@@ -201,6 +204,12 @@
   }
   .w-70 {
     width: calc(var(--spacing) * 70);
+  }
+  .w-93\.25 {
+    width: calc(var(--spacing) * 93.25);
+  }
+  .w-94 {
+    width: calc(var(--spacing) * 94);
   }
   .w-95 {
     width: calc(var(--spacing) * 95);
@@ -238,11 +247,17 @@
   .gap-2 {
     gap: calc(var(--spacing) * 2);
   }
+  .gap-3 {
+    gap: calc(var(--spacing) * 3);
+  }
   .gap-4 {
     gap: calc(var(--spacing) * 4);
   }
   .gap-5 {
     gap: calc(var(--spacing) * 5);
+  }
+  .gap-5\.5 {
+    gap: calc(var(--spacing) * 5.5);
   }
   .gap-23 {
     gap: calc(var(--spacing) * 23);
@@ -250,17 +265,35 @@
   .rounded-\[4px\] {
     border-radius: 4px;
   }
+  .bg-\[\#1F1F1F\] {
+    background-color: #1F1F1F;
+  }
   .bg-\[\#24B47E\] {
     background-color: #24B47E;
   }
   .bg-\[\#181818\] {
     background-color: #181818;
   }
+  .p-5\.25 {
+    padding: calc(var(--spacing) * 5.25);
+  }
+  .py-2\.75 {
+    padding-block: calc(var(--spacing) * 2.75);
+  }
+  .py-3 {
+    padding-block: calc(var(--spacing) * 3);
+  }
   .py-19 {
     padding-block: calc(var(--spacing) * 19);
   }
   .pt-32 {
     padding-top: calc(var(--spacing) * 32);
+  }
+  .pb-6 {
+    padding-bottom: calc(var(--spacing) * 6);
+  }
+  .pb-10 {
+    padding-bottom: calc(var(--spacing) * 10);
   }
   .font-\[\'Roboto\'\] {
     font-family: 'Roboto';
@@ -374,6 +407,59 @@
 }
 .fontRoboto {
   font-family: 'Roboto';
+}
+.section2-link {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #6666;
+}
+.section2-right h3 {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+.p-gray-gart {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  margin-bottom: 48px;
+}
+.section2-right-gray-cart h4 {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+.gray-cart-inner h5 {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.gray-cart-inner-p {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+}
+.btn-section2 {
+  width: 92px;
+  height: 32px;
+  background: #1374EF;
+  border-radius: 3px;
+  img {
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+  }
 }
 @property --tw-rotate-x {
   syntax: "*";

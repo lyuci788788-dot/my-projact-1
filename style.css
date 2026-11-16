@@ -18,6 +18,10 @@ color: #EEEEEE;
 
 } */
 
+button{
+  cursor: pointer;
+}
+
 .sing-in {
   font-family: 'Roboto';
   font-weight: 700;
@@ -99,4 +103,101 @@ color: #EEEEEE;
 
 .fontRoboto {
   font-family: 'Roboto';
+}
+
+
+.section2-all {}
+
+.section-big-all {}
+
+.section2-init {}
+
+.section2-left {
+  nav{
+    a{
+      border-radius: 5px;
+      padding: 10px;
+      &:active{
+        background-color: #2A2A2A;
+        color: white;
+      }
+            &:hover{
+        background-color: #2A2A2A;
+        color: white;
+      }
+    }
+  }
+}
+
+.section2-link {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #6666;
+
+}
+
+.section2-right {
+  h3 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 16px;
+  }
+
+}
+
+.p-gray-gart {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  margin-bottom: 48px;
+}
+
+.section2-right-gray-cart {
+  h4 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+  }
+}
+
+.gray-cart {}
+
+.gray-cart-inner {
+  h5 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+}
+
+.gray-cart-inner-p {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+}
+.git-hub {}
+
+.btn-section2{
+  width: 92px;
+height: 32px;
+background: #1374EF;
+border-radius: 3px;
+img{
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+}
 }
