@@ -201,3 +201,36 @@ img{
   justify-content: center;
 }
 }
+
+.cart-section3{
+  font-family: 'Roboto';
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+color: #FFFFFF;
+}
+
+
+.cart-section3-text{
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+color: #E0E0E0;
+}
+.link-section3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+color: #4299E1;
+width: 97px;
+height: 20px;
+border-radius: 9999px;
+background: #3182CE1A;
+
+}
