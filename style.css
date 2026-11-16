@@ -39,7 +39,7 @@ color: #EEEEEE;
 
   h1 {
     margin-bottom: 52px;
-margin-top: 17px;
+    margin-top: 17px;
     width: 566px;
     font-family: 'Roboto';
     font-weight: 700;
@@ -65,10 +65,38 @@ margin-top: 17px;
   width: 441px;
 
   font-family: 'Roboto';
-font-weight: 400;
-font-size: 14px;
-line-height: 28px;
-color: #E0E0E0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  color: #E0E0E0;
 }
 
 .hero-right {}
+
+.text-section1 {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0%;
+}
+
+.text-section2 {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0%;
+}
+
+.list1-swctiom1 {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  justify-content: start;
+  align-items: start;
+}
+
+.fontRoboto {
+  font-family: 'Roboto';
+}

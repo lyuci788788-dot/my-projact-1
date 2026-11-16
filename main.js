@@ -163,3 +163,7 @@
 // let x = 156;
 // console.log((x** 3)*(y** 3));
 
+
+
+
+// npx @tailwindcss/cli -i ./style.css -o ./output.css 
