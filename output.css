@@ -213,6 +213,9 @@
   .h-147\.25 {
     height: calc(var(--spacing) * 147.25);
   }
+  .h-150\.25 {
+    height: calc(var(--spacing) * 150.25);
+  }
   .h-auto {
     height: auto;
   }
@@ -266,6 +269,9 @@
   }
   .items-start {
     align-items: flex-start;
+  }
+  .justify-around {
+    justify-content: space-around;
   }
   .justify-between {
     justify-content: space-between;
@@ -567,6 +573,25 @@ button {
   letter-spacing: 0%;
   text-align: center;
   color: #BBBBBB;
+}
+.ull-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.ul {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+}
+.ull {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #666666;
 }
 @property --tw-rotate-x {
   syntax: "*";

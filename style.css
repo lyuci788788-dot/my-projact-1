@@ -18,7 +18,7 @@ color: #EEEEEE;
 
 } */
 
-button{
+button {
   cursor: pointer;
 }
 
@@ -113,15 +113,17 @@ button{
 .section2-init {}
 
 .section2-left {
-  nav{
-    a{
+  nav {
+    a {
       border-radius: 5px;
       padding: 10px;
-      &:active{
+
+      &:active {
         background-color: #2A2A2A;
         color: white;
       }
-            &:hover{
+
+      &:hover {
         background-color: #2A2A2A;
         color: white;
       }
@@ -188,69 +190,94 @@ button{
   font-size: 12px;
   line-height: 24px;
 }
+
 .git-hub {}
 
-.btn-section2{
+.btn-section2 {
   width: 92px;
-height: 32px;
-background: #1374EF;
-border-radius: 3px;
-img{
-  padding: 5px;
-  align-items: center;
-  justify-content: center;
-}
+  height: 32px;
+  background: #1374EF;
+  border-radius: 3px;
+
+  img {
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
-.cart-section3{
+.cart-section3 {
   font-family: 'Roboto';
-font-weight: 400;
-font-size: 18px;
-line-height: 28px;
-color: #FFFFFF;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
 }
 
 
-.cart-section3-text{
-font-family: 'Roboto';
-font-weight: 400;
-font-size: 15px;
-line-height: 20px;
-color: #E0E0E0;
+.cart-section3-text {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #E0E0E0;
 }
-.link-section3{
+
+.link-section3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: 'Roboto';
-font-weight: 400;
-font-size: 12px;
-line-height: 16px;
-color: #4299E1;
-width: 97px;
-height: 20px;
-border-radius: 9999px;
-background: #3182CE1A;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #4299E1;
+  width: 97px;
+  height: 20px;
+  border-radius: 9999px;
+  background: #3182CE1A;
 }
 
-.section-minimal{
-  h2{
+.section-minimal {
+  h2 {
     font-family: 'Roboto';
-font-weight: 400;
-font-size: 36px;
-line-height: 43px;
-letter-spacing: 0%;
-text-align: center;
-color: white;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
   }
-  span{
+
+  span {
     font-family: 'Roboto';
-font-weight: 400;
-font-size: 36px;
-line-height: 43px;
-letter-spacing: 0%;
-text-align: center;
-color: #BBBBBB;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #BBBBBB;
   }
 }
+
+.ull-footer{
+  display: flex;
+  flex-direction:column ;
+  gap: 10px;
+}
+
+  .ul{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+  }
+  .ull{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #666666;
+  }
